@@ -1,3 +1,6 @@
+==== 1.2.4 ====
+Removed 2.3 compatibility due to problems with PHP 7.0 and M2.2.6 and the CsrfValidation in M2.3
+
 ==== 1.2.3 ====
 Renamed PayPal-Plus to PayPal PLUS
 

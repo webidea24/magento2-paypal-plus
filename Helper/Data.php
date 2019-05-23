@@ -126,20 +126,6 @@ class Data extends \Magento\Payment\Helper\Data
      */
     public function getWebhooksUrl()
     {
-        $version = $this->productMetaData->getVersion();
-        if (version_compare($version, '2.3.0', '>=')) {
-            return str_replace(
-                'http://',
-                'https://',
-                $this->_getUrl(
-                    'paypalplus/webhooks/twothree/',
-                    [
-                        '_forced_secure' => true,
-                        '_nosid' => true,
-                    ]
-                )
-            );
-        }
         return str_replace(
             'http://',
             'https://',
