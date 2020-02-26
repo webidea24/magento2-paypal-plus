@@ -71,6 +71,10 @@
                         <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                         <config_path>payment/iways_paypalplus_payment/active</config_path>
                     </field>
+                    <field id="title" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                        <label>Title</label>
+                        <config_path>payment/iways_paypalplus_payment/title</config_path>
+                    </field>
                     <field id="payment_action" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
                         <label>Payment action</label>
                         <source_model>Iways\PayPalPlus\Model\System\Config\Source\PaymentAction</source_model>
